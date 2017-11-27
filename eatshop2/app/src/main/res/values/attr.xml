@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 联动选择器 -->
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+    <!-- NavigationView自定义属性 -->
+    <declare-styleable name="NavigationView">
+        <!-- 标题 -->
+        <attr name="nvTitle" format="string" />
+        <!-- 右边按钮资源 -->
+        <attr name="nvOperation" format="string" />
+        <attr name="nvColorMode">
+            <flag name="blue" value="0x0"/>
+            <flag name="white" value="0x1"/>
+        </attr>
+        <attr name="nvBackVisibility" >
+            <flag name="gone" value="0x0"/>
+            <flag name="visible" value="0x1"/>
+        </attr>
+    </declare-styleable>
+    <!-- 轮播图的指示，也就是那几个小点 -->
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+    </declare-styleable>
+
+
+    <!--设置自动投标期限-->
+    <declare-styleable name="Follow">
+        <attr name="target" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FixedProportion">
+        <attr name="proportion" format="float"></attr>
+    </declare-styleable>
+</resources>

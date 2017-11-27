@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rectangle_bg"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="提示"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_line_width"
+        android:layout_marginTop="20dp"
+        android:background="#C5C5C5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/leftBtn"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="#076fd0"
+            android:visibility="gone" />
+
+        <View
+            android:visibility="gone"
+            android:id="@+id/vertical_line"
+            android:layout_width="@dimen/layout_line_width"
+            android:layout_height="match_parent"
+            android:background="#C5C5C5" />
+
+        <Button
+            android:id="@+id/rightBtn"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="#076fd0"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

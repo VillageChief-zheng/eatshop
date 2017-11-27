@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- 红色 圆点 半径-->
+        <dimen name="red_dot_radius">7dp</dimen>
+
+        <!-- sliding shadow -->
+        <dimen name="slidingmenu_offset">80dp</dimen>
+        <dimen name="shadow_width">15dp</dimen>
+
+        <dimen name="font_default">17sp</dimen>
+        <dimen name="font_small">16sp</dimen>
+        <dimen name="font_large">18sp</dimen>
+        <dimen name="font_button_text">18sp</dimen>
+        <!-- 默认字体大小 -->
+        <dimen name="default_text_size">16sp</dimen>
+
+        <dimen name="default_layout_padding">12dp</dimen>
+        <dimen name="text_size_20">20sp</dimen>
+        <dimen name="text_size_19">19sp</dimen>
+        <dimen name="text_size_18">18sp</dimen>
+        <dimen name="text_size_17">17sp</dimen>
+        <dimen name="text_size_16">16sp</dimen>
+        <dimen name="text_size_15">15sp</dimen>
+        <dimen name="size_11">11sp</dimen>
+        <dimen name="size_12">12sp</dimen>
+        <dimen name="size_13">13sp</dimen>
+        <dimen name="size_14">14sp</dimen>
+        <dimen name="size_15">15sp</dimen>
+        <dimen name="size_17">17sp</dimen>
+        <dimen name="size_18">18sp</dimen>
+        <dimen name="size_22">22sp</dimen>
+        <dimen name="size_25">25sp</dimen>
+        <dimen name="size_28">28sp</dimen>
+        <dimen name="size_30">30sp</dimen>
+        <dimen name="size_33">33sp</dimen>
+        <dimen name="size_35">35sp</dimen>
+        <dimen name="size_40">40sp</dimen>
+        <dimen name="size_56">56sp</dimen>
+        <dimen name="size_80">80sp</dimen>
+        <dimen name="eighteen">18dp</dimen>
+        <dimen name="text_eighteen">18sp</dimen>
+        <dimen name="text_fifteen">15sp</dimen>
+        <dimen name="text_twenty">20sp</dimen>
+        <dimen name="text_twenty_one">21sp</dimen>
+        <dimen name="text_twenty_tow">22sp</dimen>
+        <dimen name="text_twenty_three">23sp</dimen>
+        <dimen name="text_twenty_four">24sp</dimen>
+        <dimen name="text_twenty_five">25sp</dimen>
+        <!-- 借款人基本资料 -->
+        <dimen name="borrower_title_size">13sp</dimen>
+        <dimen name="borrower_content_margin_top">8dip</dimen>
+        <dimen name="activity_horizontal_margin">16dp</dimen>
+        <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <dimen name="layout_space_default">8dp</dimen>
+        <dimen name="layout_space_small">6dp</dimen>
+        <dimen name="layout_space_large">16dp</dimen>
+        <dimen name="layout_item_height_default">48dp</dimen>
+        <dimen name="layout_item_content_height_default">32dp</dimen>
+        <dimen name="layout_item_content_height_large">40dp</dimen>
+
+        <dimen name="layout_item_open_account_height">48dp</dimen>
+        <dimen name="layout_open_account_padding_horizontal">8dp</dimen>
+        <dimen name="layout_button_height">48dp</dimen>
+
+        <dimen name="credit_details_item_height">40dp</dimen>
+        <dimen name="credit_details_padding_horizontal">10dp</dimen>
+        <dimen name="my_account_item_height">50dp</dimen>
+        <dimen name="layout_item_height">45dp</dimen>
+        <dimen name="layout_padding_horizontal">10dp</dimen>
+        <dimen name="layout_padding_horizontal_large">15dp</dimen>
+        <dimen name="layout_line_width">0.5dp</dimen>
+
+
+        <dimen name="layout_register_item_height">50dp</dimen>
+        <dimen name="layout_sign_in_item_height">50dp</dimen>
+        <dimen name="layout_forget_pwd_mobile_item_height">50dp</dimen>
+        <dimen name="layout_forget_pwd_set_new_item_height">50dp</dimen>
+ </resources>
