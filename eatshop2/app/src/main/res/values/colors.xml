@@ -53,4 +53,7 @@
     <color name="investinfo_color">#443930</color>
 
     <color name="popup_bg_transparent">#55000000</color>
+    <!--首页radoio-->
+    <color name="main_radio_text_color_true">#28b679</color>
+    <color name="main_radio_text_color_false">#ffffff</color>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--fragment 首页 动能启动按键的字体颜色-->
+    <item android:color="#2aba7c" android:state_pressed="true" />
+    <item android:color="@color/white" android:state_pressed="false" />
+
+</selector>

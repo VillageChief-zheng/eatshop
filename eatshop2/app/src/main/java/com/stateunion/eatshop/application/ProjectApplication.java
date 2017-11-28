@@ -7,6 +7,8 @@ import android.util.DisplayMetrics;
 
 import com.growingio.android.sdk.collection.Configuration;
 import com.growingio.android.sdk.collection.GrowingIO;
+import com.stateunion.eatshop.APPKey;
+import com.stateunion.eatshop.DataStore;
 import com.stateunion.eatshop.commons.Constants;
 import com.stateunion.eatshop.retrofit.BuildConfig;
 import com.tencent.bugly.crashreport.CrashReport;
@@ -28,8 +30,10 @@ public class ProjectApplication extends MultiDexApplication {
         // 获取系统版本
         Constants.SYSTEM_VERSION = android.os.Build.VERSION.SDK_INT;
         initBugly();
-        initGroWingIO();
+//        initGroWingIO();
 //        initTencentX5();
+        DataStore.init(getApplicationContext());
+        initMainNavigationRadioGroup();
     }
 
     /**
@@ -63,5 +67,16 @@ public class ProjectApplication extends MultiDexApplication {
         strategy.setAppChannel(BuildConfig.FLAVOR);
         //初始化Bugly
         CrashReport.initCrashReport(getApplicationContext(), BuildConfig.BUGLY_APP_ID, false, strategy);
+    }
+    /**
+     * 初始化 首页 radio button
+     */
+    private void initMainNavigationRadioGroup() {
+        if (DataStore.getInt(APPKey.SP_MAIN_RADIO_1) == -1) {
+            DataStore.put(APPKey.SP_MAIN_RADIO_1, APPKey.SP_MAIN_RADIO_LAYOUT_MAIN);
+            DataStore.put(APPKey.SP_MAIN_RADIO_2, APPKey.SP_MAIN_RADIO_LAYOUT_TAKE);
+            DataStore.put(APPKey.SP_MAIN_RADIO_3, APPKey.SP_MAIN_RADIO_LAYOUT_COUP);
+            DataStore.put(APPKey.SP_MAIN_RADIO_4, APPKey.SP_MAIN_RADIO_LAYOUT_PERS);
+         }
     }
 }

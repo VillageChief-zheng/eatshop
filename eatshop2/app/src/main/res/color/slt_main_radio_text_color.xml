@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--首页RadioButton 字体颜色：选中，非选中状态-->
+
+    <item android:color="@color/main_radio_text_color_true" android:state_checked="true" />
+    <item android:color="@color/main_radio_text_color_false" android:state_checked="false" />
+
+</selector>

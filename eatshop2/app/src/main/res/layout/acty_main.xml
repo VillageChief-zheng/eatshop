@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:orientation="horizontal"
+     >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioGroup
+                android:id="@+id/acty_main_radioGroups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/acty_main_radio_group_bg"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/acty_main_radio0"
+                    style="@style/MainRadio"
+                    android:checked="true"
+                    android:drawableTop="@drawable/slt_main_radio_main"
+                    android:text="@string/main_radio_main" />
+
+                <RadioButton
+                    android:id="@+id/acty_main_radio1"
+                    style="@style/MainRadio"
+                    android:drawableTop="@drawable/slt_main_radio_game"
+                    android:text="@string/main_radio_take" />
+
+
+                <com.stateunion.eatshop.custom_view.RedPointRadioButton
+                    android:id="@+id/acty_main_radio2"
+                    style="@style/MainRadio"
+                    android:drawableTop="@drawable/slt_main_radio_social"
+                    android:text="@string/main_radio_coup" />
+
+                <com.stateunion.eatshop.custom_view.RedPointRadioButton
+                    android:id="@+id/acty_main_radio3"
+                    style="@style/MainRadio"
+                    android:drawableTop="@drawable/slt_main_radio_mission"
+                    android:text="@string/main_radio_per" />
+            </RadioGroup>
+
+            <FrameLayout
+                android:id="@+id/acty_main_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onMainFrameClick"
+                android:layout_above="@+id/acty_main_radioGroups" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+ </LinearLayout>
+
+
+</FrameLayout>

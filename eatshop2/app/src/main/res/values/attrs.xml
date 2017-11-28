@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="bm">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="paddingLeft" format="dimension"/>
+        <attr name="paddingRight" format="dimension"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <!-- 红点数字颜色 -->
+        <attr name="red_num_color" format="color"/>
+        <!-- 红点数字大小 -->
+        <attr name="red_num_size" format="dimension"/>
+        <!-- 红点背景颜色 -->
+        <attr name="red_bg" format="color"/>
+        <!-- 红点半径 -->
+        <attr name="red_radius" format="dimension"/>
+    </declare-styleable>
+
+</resources>
