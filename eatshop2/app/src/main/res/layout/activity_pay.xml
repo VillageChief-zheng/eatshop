@@ -11,7 +11,7 @@
 </ListView>
     <LinearLayout
         android:id="@+id/rl_pay_remind"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp" >
 
@@ -105,4 +105,13 @@
             android:background="@mipmap/right_circle_false" >
         </ImageView>
     </RelativeLayout>
- </LinearLayout>
+
+    <Button
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="支付"
+        android:background="@drawable/login_bt"
+        android:id="@+id/bt_buy"
+        />
+</LinearLayout>
